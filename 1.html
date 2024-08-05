@@ -3,6 +3,10 @@
     color: rgb(0,113,133)
   }
 
+  a:hover{
+    color: rgb(158, 71, 41);
+  }
+
   .title {
     font-size: 25px;
     font-weight: bold;
@@ -24,14 +28,29 @@
     border: none;
     border-radius: 18px;
     font-size: 17px;
+    cursor: pointer;
+  }
+  
+  .btn:active{
+    opacity: 0.6;
   }
 
   .add{
-    background-color: rgb(255,216,20)
+    background-color: rgb(255,216,20);
+    transition: background-color 0.20s;
+  }
+
+  .add:hover{
+    background-color: rgb(216, 171, 3);
   }
 
   .buy{
-    background-color: rgb(255, 164, 28)
+    background-color: rgb(255, 164, 28);
+    transition: background-color 0.20s;
+  }
+
+  .buy:hover{
+    background-color: rgb(217,109,4)
   }
 
 </style>
